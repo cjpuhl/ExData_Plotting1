@@ -44,7 +44,7 @@ loadData <- function(){
 
 ## saves jpeg plot4
 plot4jpeg <- function(){
-        png(filename = "plot4.png",width = 480,height = 480)
+        png(filename = "Plot4.png",width = 480,height = 480)
         
         par(mfrow=c(2,2),mar=c(4,4,1,2))
         
